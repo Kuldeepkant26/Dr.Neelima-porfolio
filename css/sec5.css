@@ -1,0 +1,20 @@
+.sec5 {
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sec5 img {
+    width: 45%;
+    margin: 1rem;
+}
+
+@media (max-width:640px) {
+    .sec5 img {
+        width: 90%;
+    }
+}

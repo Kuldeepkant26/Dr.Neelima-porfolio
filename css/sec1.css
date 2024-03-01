@@ -1,6 +1,3 @@
-
-
-
 .sec1 {
     background-image: url('/images/s1a.jpg');
     /* Replace 'path/to/your/image.jpg' with the path to your image */
@@ -14,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 /* Media query for smaller screens */
@@ -69,8 +66,51 @@
 }
 
 @media (max-width:770px) {
-   
+    .sec1 {
+        background: none;
+        border: 1px solid salmon;
+        width: 100vw;
+        height: 60vh;
+        position: relative;
+        
+        justify-content: end;
+      
+    }
 
-   
+    .sec1 .cont1 {
+        display: none;
+    }
 
+    .sec1 p {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .sec1::before {
+        content: "";
+        background-image: url('/images/s1b.png');
+        background-size: contain;
+        background-position: center; /* Center the background image */
+        position: absolute;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 50%; /* Move the background image to the horizontal center */
+        transform: translateX(-50%); /* Adjust to center the image */
+        width: 100%; /* Adjust the width as needed */
+        height: 100%;
+        z-index: -1;
+        opacity: 1;
+       
+    }
+
+    .sec1 .cont2{
+       
+        text-align: center;
+        justify-content: end;
+    }
+    .sec1 .cont2 h1{
+        font-size: 2rem;
+        margin: 0px;
+    }
+    
 }

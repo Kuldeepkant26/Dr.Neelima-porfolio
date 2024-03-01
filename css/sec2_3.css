@@ -1,0 +1,130 @@
+.sec2 {
+    background-color: #FBCEB1;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec2 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.sec3 {
+    width: 100%;
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0px;
+}
+
+.sec3 .cont {
+    width: 80%;
+    height: fit-content;
+    background-color: #8E9778;
+    display: flex;
+}
+
+.sec3 .cont .left {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+.sec3 .cont .left h3 {
+    margin: 1rem;
+}
+
+.sec3 .cont .right {
+    width: 70%;
+    height: 100%;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec3 .cont .left p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.8rem;
+
+}
+
+.sec3 .cont .right h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sec3 .cont .right p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+@media (max-width:770px) {
+    .sec3 .cont {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sec3 .cont .left {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .sec3 .cont .left p {
+        margin-top: 0.8rem;
+    }
+
+    .sec3 .cont .left img {
+        width: 60%;
+        height: 60vh;
+        object-fit: cover;
+        margin: 2rem;
+    }
+
+    .sec3 .cont .right {
+        border-top: 0.5px solid rgba(228, 221, 221, 0.689);
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .sec3 .cont .right h1 {
+        font-size: 2.1rem;
+        text-align: center;
+        margin-top: 0.6rem;
+    }
+
+    .sec3 .cont .right p {
+
+        font-size: 1rem;
+        margin: 0.6rem;
+    }
+}
+
+@media (max-width:410px) {
+    .sec3 .cont .left img {
+        width: 80%;
+        height: 60vh;
+        object-fit: cover;
+        margin: 2rem;
+    }
+}
