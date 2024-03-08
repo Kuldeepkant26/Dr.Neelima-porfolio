@@ -1,4 +1,5 @@
 .sec1 {
+    margin-top: 4rem;
     background-image: url('/images/s1a.jpg');
     /* Replace 'path/to/your/image.jpg' with the path to your image */
     background-size: cover;
@@ -11,7 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    padding-left: 3rem;
 }
 
 /* Media query for smaller screens */
@@ -26,17 +27,18 @@
 
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding-right: 1rem;
+
 }
 
 .sec1 .cont1 h3 {
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 1.5rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-size: 1.2rem;
     font-style: normal;
+    position: relative;
+    right: 2rem;
 }
 
 @media (max-width:1026px) {
@@ -57,24 +59,26 @@
     font-size: 4rem;
 }
 
-.sec1 p {
+.sec1 #para2 {
     font-size: 1.5rem;
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+
 }
 
 @media (max-width:770px) {
     .sec1 {
         background: none;
-        border: 1px solid salmon;
+
         width: 100vw;
         height: 60vh;
         position: relative;
-        
         justify-content: end;
-      
+        align-items: center;
+        padding: 0px;
     }
 
     .sec1 .cont1 {
@@ -90,27 +94,39 @@
         content: "";
         background-image: url('/images/s1b.png');
         background-size: contain;
-        background-position: center; /* Center the background image */
+        background-position: center;
+        /* Center the background image */
         position: absolute;
         background-repeat: no-repeat;
         top: 0;
-        left: 50%; /* Move the background image to the horizontal center */
-        transform: translateX(-50%); /* Adjust to center the image */
-        width: 100%; /* Adjust the width as needed */
+        left: 50%;
+        /* Move the background image to the horizontal center */
+        transform: translateX(-50%);
+        /* Adjust to center the image */
+        width: 100%;
+        /* Adjust the width as needed */
         height: 100%;
         z-index: -1;
         opacity: 1;
-       
+
     }
 
-    .sec1 .cont2{
-       
+    .sec1 .cont2 {
+
         text-align: center;
         justify-content: end;
+        width: 100%;
     }
-    .sec1 .cont2 h1{
+
+    .sec1 .cont2 h1 {
         font-size: 2rem;
         margin: 0px;
     }
-    
+
+    .sec1 #para2 {
+        width: 100%;
+
+
+    }
+
 }

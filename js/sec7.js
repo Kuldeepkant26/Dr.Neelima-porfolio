@@ -44,3 +44,9 @@ blue.addEventListener("click", (event) => {
         b.style.display = "block";
     }
 });
+
+
+
+
+
+

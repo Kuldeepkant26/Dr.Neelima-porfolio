@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .psec1 {
+            width: 100%;
+
+            height: 80vh;
+            position: relative;
+        }
+
+        .psec1 img {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+
+        }
+
+        .psec1 div {
+            position: absolute;
+            z-index: 10;
+            background-color: #7FB722;
+            width: 70vw;
+            font-size: 5vw;
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: -15vh;
+            color: white;
+            box-shadow: inset;
+
+        }
+
+        @media (max-width:750px) {
+            .psec1 {
+                width: 100%;
+
+                height: 50vh;
+                position: relative;
+            }
+
+            .psec1 img {
+                position: absolute;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+
+            }
+
+            .psec1 div {
+                position: absolute;
+                z-index: 10;
+                background-color: #7FB722;
+                width: 100vw;
+                font-size: 5vw;
+                height: 10vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                bottom: -10vh;
+                color: white;
+                box-shadow: inset;
+
+            }
+        }
+
+
+        .psec2 {
+            margin-top: 4rem;
+            padding: 5rem;
+            color: rgb(13, 13, 13);
+
+        }
+
+
+        .psec2 h1 {
+            text-align: center;
+            font-size: 3vw;
+            margin: 2rem;
+        }
+
+        .psec3 ul li,
+        .psec2 ul li {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 215%;
+            margin-left: 1.2rem;
+            margin-right: 1rem;
+            text-align: justify;
+        }
+
+        .psec3 {
+            padding: 5rem;
+            color: rgb(13, 13, 13);
+
+            border-bottom: 3rem solid #7FB722;
+            border-right: 3rem solid #7FB722;
+
+        }
+
+        .psec3 h1 {
+            text-align: center;
+            font-size: 3vw;
+            margin-bottom: 2rem;
+
+        }
+
+        @media (max-width:770px) {
+            .psec2 {
+
+                padding: 1rem;
+                color: rgb(13, 13, 13);
+
+            }
+
+            .psec3 h1,
+            .psec2 h1 {
+
+                font-size: 6vw;
+                margin-bottom: 0.5rem;
+
+            }
+
+            .psec3 {
+                padding: 2rem;
+                color: rgb(13, 13, 13);
+
+                border-bottom: 1rem solid #7FB722;
+                border-right: 1rem solid #7FB722;
+
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/sec11.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <a href="/main.html">Home</a>
+            <a href="/main.html/#biography">Biography</a>
+            <a href="/publications.html">Publications</a>
+            <a href="/main.html">Focous areas</a>
+            <a href="/Events.html">Events</a>
+            <a href="/main.html/#contact-form">Contact Us</a>
+        </div>
+        <a href="#" id="lin">
+            <i class="ri-linkedin-fill"></i>
+        </a>
+        <a href="#" id="ham" onclick="toggleMenu()">
+            <i class="ri-menu-line"></i>
+        </a>
+    </nav>
+    <div class="psec1">
+        <img src="/images/public.jpg" alt="">
+        <div>
+            Academic Publications
+        </div>
+    </div>
+    <div class="psec2">
+        <h1>List of Publications from April 2010 till March 2021</h1>
+        <ul>
+            <li>Palanisamy Karthikeyan, Vaid Lakshmi, Gupta Neelima, Saha Rumpa, Singh Usha. (2020). Clinical and
+                histopathological impact of biofilm in chronic rhinosinusitis with nasal polyps. International Journal
+                of Otorhinolaryngology and Head and Neck Surgery. 7. 73. 10.18203/issn.2454-5929.ijohns20205623. </li>
+            <li>Rai G, Das S, Ansari MA, Singh PK, Dar SA, Haque S, Gupta N, Sharma S, Ramachandran VG, Sharma S, Jain
+                C, Sharma S. TLR-2 expression and dysregulated human Treg/Th17 phenotype in Aspergillus flavus infected
+                patients of chronic rhinosinusitis with nasal polyposis. Microb Cell Fact. 2020 Nov 25;19(1):215. doi:
+                10.1186/s12934-020-01481-3. PMID: 33238997; PMCID: PMC7689976.</li>
+            <li>Oleszkiewicz A, Alizadeh R, Altundag A, Chen B, Corrai A, Fanari R, Farhadi M, Gupta N, Habel R, Hudson
+                R, Hughes JL, Joshi A, Kamrava SK, Luckett C, Mahmut MK, Masala C, Mori E, Pellegrino R, Piras R, Resler
+                K, Rivas-Castro A, Saluja S, Sharma S, Shimmura H, Soler GM, Stefańczyk MM, Sun Z, Thaploo D, Wei Y, Yan
+                X, Hummel T. Global study of variability in olfactory sensitivity. Behav Neurosci. 2020
+                Oct;134(5):394-406. doi: 10.1037/bne0000378. PMID: 33001681.</li>
+            <li>Kapoor, D., Mona, H. & Gupta, N. Novel Use of Platelet Rich Fibrin Membrane in Transcanal Myringoplasty:
+                A Prospective Study—Letter to Editor. Indian J Otolaryngol Head Neck Surg(2020).
+                https://doi.org/10.1007/s12070-020-02202-3</li>
+            <li>Study of Patient Outcome in Endoscopic Dacryocystorhinostomy using a Microdebrider in Chronic
+                Dacryocystitis patients. Vishwani A, Taneja HC, Das GK, Gupta N, Arora V. Int Surg J. 2020 Feb;7(2):
+                440-446.</li>
+            <li>Giant complicated glosso- cervical AVM managed with ECA ligation and Serial injection Sclerotherapy: a
+                case report and review of literature. Vishwani A, Goyal A, Vaid D, Gupta N, Vaid L, Henam M. Int Surg J.
+                2020 Mar;7(3): 932-935.</li>
+            <li>Taste function and Salivary analysis in patients with Oral sensorial complaints. Gupta N et al. Ind J
+                Oral Health and Research, 2019; 5(1): 17-22.</li>
+            <li>Rai G, Das S, Ansari MA, Singh PK, Gupta N, Sharma S, Akhter N, Ramachandran VG, Haque S, Dar SA.
+                Phenotypic and functional profile of Th17 and Treg cells in allergic fungal sinusitis. International
+                immunopharmacology. 2018 Apr 30; 57:55-61.</li>
+            <li>Rai G, Ansari MA, Dar SA, Datt S, Gupta N, Sharma S, Haque S, Ramachandran VG, Mazumdar A, Rudramurthy
+                S, Chakrabarti A, Das S. Serum Cytokine Profile in Patients with Chronic Rhinosinusitis with Nasal
+                Polyposis Infected by Aspergillus flavus. Ann Lab Med. 2018 Mar 1; 38(2):125-31.</li>
+
+
+            <li>Dar SA, Rai G, Ansari MA, Akhter N, Gupta N, Sharma S, Haque S, Ramachandran VG, Wahid M, Rudramurthy
+                SM, Chakrabarti A, Das S. FcɛR1α gene polymorphism shows association with high IgE and anti‐FcɛR1α in
+                Chronic Rhinosinusitis with Nasal Polyposis. Journal of Cellular Biochemistry. 2018 May;
+                119(5):4142-4149. doi: 10.1002/jcb.26619.Epub 2018 Jan 22. PMID: 29243845.</li>
+            <li>Schriever VA, Agosin E, AltundagA,……Gupta N et al. Development of an International Odor Identification
+                Test for Children: The Universal Sniff Test. J Pediatr 2018.
+                Roy P, Das S, SharmaS, Girotra V, Gupta N, Saha R, Kaur IR. Revisiting the Utility of Histopathological
+                Examination of Biopsy: A Necessity in Microbiology. Journal of Clinical and Diagnostic Research. 2017
+                May, Vol-11(5): DC16-DC18</li>
+            <li>Rai G, Roy P, Gupta N, Sharma S, Dar SA, Ansari MA, Ramachandran VG, Das S. Computed Tomography Score an
+                Excellent Marker: Differentiates Eosinophilic and Non-eosinophilic Variants of Chronic Rhinosinusitis
+                with Nasal Polyp. Ind J of Otolaryngol HeadNeck Surg. 2017:1-6.</li>
+            <li>Gupta N, Harit A, Taneja H.C et al. Olfaction and its correlates in Allergic Rhinitis: A case control
+                study. Ind J Otolaryngol Head Neck Surg (2017). https://doi.org/10.1007/s12070-017-1149-7.</li>
+            <li>T. Hummel, K.L. Whitcroft, P. Andrews, A.Altundag, C Cinghi, R.M. Costanzo, M. Damm, J. Frasnelli, H.
+                Gudziol, N. Gupta, et al. Position paper on Olfactory Dysfunction. Rhinology. March 2017; vol 54,
+                supplement 26:1-30.</li>
+            <li>Gupta N, Kaur R, Rai A, Wadhwa N, Singh PP. Neurofibroma of the cheek and Nasal dorsum: a Case Report
+                and a Mini review. Int J OtorhinolaryngolClin 2016; 8(2):62-64.</li>
+            <li>Bansal D, Sharma S, Agarwal S, Saha R, Gupta N. Detection of Helicobacter pylori in Nasal Polyps. Head
+                and Neck Pathol DOI 10.1007/s12105-016-0699-4 (Published online 30 January 2016)</li>
+            <li>Goyal S, Sharma S, Kotru M, Gupta N. Role of FNAC in the diagnosis of intraosseous jaw lesions. Med Oral
+                Pathol Oral Cir Buccal 2015 May 1; 20(3): e284-91. Doi:10.4317/medoral.20274.</li>
+
+
+            <li>Gupta N, Singh PP, Bagla R. Will Septal Correction surgery for Deviated Nasal Septum Improve the Sense
+                of Smell- A Prospective Study. Surgery Research and Practice vol 2015, Article ID 496542, 5 pages;
+                http://dx.doi.org/10.1155/2015/496542 </li>
+            <li>Gupta N, Sharma A, Singh PP. Excessive Exposure to Loud Recreational Music can be Harmful: How aware are
+                our youngsters. In Conference proceedings- 1st World Congress on Ear and Hearing Care, Delhi, 12-14th
+                Feb 2015.</li>
+            <li>Kumar M, Goyal A, Gupta N, Rautela RS. Subcutaneous emphysema: Unique presentation of a foreign body in
+                the airway. J AnaesthesiolClinPharmacol 2015; 31: 404-6.</li>
+            <li>Gupta N, Sharma A, Singh P.P, Goyal A, Sao R. Assessment of Knowledge of Harmful Effects and Exposure to
+                Recreational Music in College Students of Delhi: A Cross Sectional Exploratory Study. Ind J Otolaryngol
+                Head Neck Surg. 2014 (July- Sept); 66(3): 254-259: doi 10.1007s 12070-013-0671-5.</li>
+            <li>Gupta N, Wadhwa N, Goyal A. Tuberculosis of Nasopharynx masquerading as Angiofibroma. Indian J Tuberc
+                2014; 61(3): 250-253.</li>
+            <li>Gupta N, Goyal A, Singh PP. Diffuse Idiopathic Skeletal Hyperostosis with Ossification of Posterior
+                Longitudinal Ligament of Cervical Spine- An Unusual Cause of Dysphagia. Annual J Otolaryngol Head Neck
+                Surg 2014; 22: 42-43.</li>
+            <li>Schriever VA, Gupta N, Pade J, Szewczynska M, Hummel T. Olfactory function following nasal surgery: a
+                1-year follow-up. Eur Arch Otorhinolaryngol (2013) 270:107–11. DOI 10.1007/s00405-012-1972-0.</li>
+            <li>Gupta N, Drusch J, Landis BN, Hummel T. Nasal Nitric Oxide Levels Do Not Allow for Discrimination
+                Between Olfactory Loss Due to Various Etiologies. Laryngoscope 123: February 2013 DOI:
+                10.1002/lary.23594</li>
+            <li>Iannilli E, Michel CM, Bartmuss AL, Gupta N and Hummel T 2013. Electrical Neuroimaging of ERPs form
+                Different Sensory Inputs on the Tongue. In Conference Proceedings- Basic and Clinical Multimodal Imaging
+                (BACI 2013) at Geneva, Switzerland.</li>
+            <li>Mazumdar A, Das S, Saha R, Ramachandran VG, Gupta N, Sharma S, Dar S. Correlation of Nucleic Acid
+                Amplification based Detection and Conventional methods of Identification of Aspergillus Flavus species
+                in Chronic Rhinosinusitis. Research and Reviews: Journal of Microbiol and Biotech 2013; 2(3): 61-66.
+            </li>
+            <li>Gupta N, Singh PP, Goyal A, Bhatia D. Assessment of Olfaction using the “I-Smell” test in an Indian
+                Population- a pilot study. Indian J Otolaryngol Head Neck Surg 2013; 65(1):6-11. DOI 10.1007/ s
+                12070-012-0566-x.</li>
+            <li>Gupta N, Dhaliwal U, Nagpal G. Student performance during the medical course: Role of pre-admission
+                eligibility and selection criteria. National Medical Journal of India 2013; 26(4): 223-226.</li>
+            <li>Gupta N, Vaid L, Singh PP. Impact of Tonsillectomy on Quality of life in Children: Our Experience. Asian
+                J Ear, Nose and Throat 2013; Jan-Mar: 11-14.</li>
+            <li>Schriever VA, Merkonidis C, Gupta N, Hummel C, Hummel T. Treatment of smell loss with systemic
+                methylprednisolone. Rhinology 2012: 50: 000-000. DOI: 10.4193/Rhino.11.207.</li>
+            <li>Jain S, Das S, Gupta N, Malik JN. Frequency of fungal isolation and antifungal susceptibility pattern of
+                the fungal isolates from nasal polyps of chronic rhinosinusitis patients at a tertiary care centre in
+                north India. Med Mycol 2012, Early online:1-6.</li>
+            <li>Singh P P, Gupta N, Verma P. Transient Evoked and Distortion Product Otoacoustic Emission Profile in
+                Patients of Otosclerosis. Indian J Otolaryngol Head Neck Surg, 2012; 64(1):
+                25-30.DOI:10.1007/s12070-011-0148-3.</li>
+            <li>Singh P P, Gupta N, Goyal A, Tomar S. Interventional Sialendoscopy for Parotid Ductal Calculi: Our
+                Preliminary Experience. Ind J Otolaryngol Head Neck Surg (July-Sept 2012); 64(3): 252-256. DOI
+                10.1007/s12070-011-0361-0.</li>
+            <li>Vaid L, Arya M, Gupta N, Singh PP, Saha R. Impact of Biofilms on Quality of Life of Rhinosinusitis
+                patients after Endoscopic Sinus Surgery. ClinRhinol: An International J 2012; 5(3): 95-102.</li>
+            <li>Gupta N, Goyal A, Singh PP, Sharma S. Isolated Laryngeal Lymphangioma- a Rarity. Indian J Otolaryngol
+                Head Neck Surg, July 2011; 63(Suppl 1):S90-S92; doi 10.1007/s12070-011-0210-1.</li>
+            <li>Das S, Kashyap B, Barua M, Gupta N, Saha R, Vaid L, and Banka A. Nasal rhinosporidiosis in humans: new
+                interpretations and a review of the literature of this enigmatic disease.Medical Mycology, April 2011,
+                Vol. 49, No. 3: Pages 311-315. (doi: 10.3109/13693786.2010.526640)</li>
+            <li>Vaid L, Gupta M, Gupta N. Bleomycinsclerotherapy in a rare case of adult onset cervical lymphangioma.
+                Ear Nose Throat J. 2010 Jan; 89(1): E23</li>
+            <li>Goyal A, Gupta N, Das S, Jain S. Basidiobolomycosis of the nose and face – a case report and a mini-
+                review of unusual cases of basidiobolomycosis. Mycopathologia 2010; 170: 165-168.
+            </li>
+            <li>Conference proceedings- 5th Australasian Rhinology Society Conference, Sydney, 3rd to 5th September
+                2010. Gupta N, Singh PP, Goyal A, Bhatia D. Assessment of Olfaction using the “I-Smell” test in an
+                Indian population.pg 15.</li>
+            <li>Gupta N, Sharma A, Singh P. P. Generating an Evidence Base for Information, Education and Communication
+                Needs of the Community Regarding deafness: A Qualitative Study. Ind J Community Med. 2010: 35(3);
+                420-423.F</li>
+            <li>Gupta N, Vaid L, Chugh N, Singh PP. ExtranasopharyngealAngiofibroma from the Nasal Septum: A Case Report
+                and a Minireview. Clinical Rhinology: An International Journal, September-December 2010; 3(3):169-171
+            </li>
+        </ul>
+    </div>
+    <div class="psec3">
+        <h1>Publications prior to 2010</h1>
+        <ul>
+            <li>Gupta N, Singh PP. Review article. Pediatric tinnitus. IJO, 2008: 14; 11-15.</li>
+            <li>Kumar S, Saxena AK, Kumar M, Rautela RS, Gupta N, Goyal A. Letters to the Editor. Anesthetic Management
+                during Bronchoscopic Removal of a Unique Friable Foreign Body. Anaesthesia Analgesia, 2006: 103(6);
+                1596- 1597.</li>
+            <li>Lade H, Gupta N, Singh PP, Dev G. Spindle cell hemangioendothelioma of the posterior pharyngeal wall.
+                Ear, Nose, Throat Journal, 2005: 84(6); 362-365.</li>
+
+            <li>Singh PP, Sharma A, Gupta N. Parapharyngeal space lipoma. IJO&HNS, 2004: 56(2); 152-154.</li>
+            <li>Gupta N, Taneja HC, Singh PP. Branchio- oto- dysplasias: An atypical presentation. Ind Jr Oto, 2003:
+                9(3); 21-25.</li>
+            <li>Singh PP, Gupta N, Vaid L. Foreign body (Denture) in the Larynx. Asean Jr Ear, Nose, Throat, 2003:
+                34-36.</li>
+            <li>Gupta N, Singh PP, Singh UR. Cherubism. IJO&HNS, 2002: 54(3); 229-231.</li>
+            <li>Singh PP, Gupta N, Jain M. Arteriovenous hemangioma involving submandibular salivary gland. IJO&HNS,
+                2001: 53(1); 57-59.</li>
+            <li>Vaid L, Gupta N, Lade H, Singh PP. Neurilemmoma of facial nerve presenting as parotid mass. IJO&HNS,
+                2001: 53(4), 301-303.</li>
+            <li>Gupta N, Lade H, Singh PP. Foreign body nose- an unusual presentation. IJO&HNS, 2000: 52(3)
+                Venkatachalam VP, Gupta N, Suri JC, Gandotra SC. Antrochoanal polyp- a cause of Obstructive sleep apnea
+                in
+                children. IJO&HNS, 1998: 50(1); 92-94.</li>
+        </ul>
+    </div>
+    <div class="sec11">
+        <div class="first">
+            <h2>Useful Links</h2>
+            <a href="/main.html">Home</a>
+            <a href="/main.html/#biography">Biography</a>
+            <a href="/publications.html">Publications</a>
+            <a href="/main.html/#focous">Focous areas</a>
+            <a href="/Events.html">Events</a>
+            <a href="/main.html/#contact-form">Contact Us</a>
+        </div>
+        <div class="second">
+            <h2>Email</h2>
+            <p>Drneelimagupta@gmail.com</p>
+            <a href=""><i class="ri-linkedin-fill"></i></a>
+
+        </div>
+        <div class="third">
+            <h2>Our Location</h2>
+            <p>2, Tahirpur Rd, GTB Enclave, Dilshad Garden, New Delhi, Delhi, 110095</p>
+        </div>
+    </div>
+    <div class="footer">©2025 Dr Neelima Gupta Powered by <span>Healthfort</span>
+        <script src="/js/nav.js"></script>
+</body>
+
+</html>
