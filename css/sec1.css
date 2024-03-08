@@ -72,13 +72,16 @@
 @media (max-width:770px) {
     .sec1 {
         background: none;
-
         width: 100vw;
-        height: 60vh;
+        height: 100vw;
         position: relative;
         justify-content: end;
         align-items: center;
         padding: 0px;
+        margin: 0px;
+        margin-top: 2.7rem;
+        padding-bottom: 2rem;
+       
     }
 
     .sec1 .cont1 {
@@ -94,7 +97,7 @@
         content: "";
         background-image: url('/images/s1b.png');
         background-size: contain;
-        background-position: center;
+        background-position:center;
         /* Center the background image */
         position: absolute;
         background-repeat: no-repeat;
@@ -105,7 +108,7 @@
         /* Adjust to center the image */
         width: 100%;
         /* Adjust the width as needed */
-        height: 100%;
+        height: 105%;
         z-index: -1;
         opacity: 1;
 
@@ -116,16 +119,21 @@
         text-align: center;
         justify-content: end;
         width: 100%;
+        height: fit-content;
+        border: 1px solid red;
+        padding: 0px;
+        gap: 0.4rem;
     }
 
     .sec1 .cont2 h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 0px;
     }
 
     .sec1 #para2 {
+        margin-top: 1rem;
         width: 100%;
-
+     font-size: 16px;
 
     }
 

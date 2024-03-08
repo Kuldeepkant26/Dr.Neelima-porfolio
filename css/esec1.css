@@ -91,7 +91,7 @@
     }
 
     .esec1 {
-        margin-top: 3rem;
+        margin-top: 4rem;
         background-image: url('/images/Esec1.jpg');
         /* Replace 'path/to/your/image.jpg' with the path to your image */
         background-size: cover;
@@ -100,7 +100,7 @@
         background-position: center;
         background-repeat: no-repeat;
         /* Position the background image to the center right */
-        height: 50vh;
+        height: 58vw;
         /* Adjust height as needed */
         /* Additional styling if required */
         display: flex;
@@ -111,9 +111,9 @@
         justify-content: center;
         padding-bottom: 1rem;
         gap: 1rem;
-        padding: 0px;
+       
         position: relative;
-
+      padding: 3rem 0px;
     }
 
     .esec1 .x {
@@ -144,8 +144,10 @@
 
     .esec1 .x p {
         margin: auto;
-        width: 14rem;
-
+        width: 11rem;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 150%;
     }
 
     .esec1 .y {

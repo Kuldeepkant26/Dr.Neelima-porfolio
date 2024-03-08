@@ -5,7 +5,7 @@
     background-color: #FBCEB1;
     display: flex;
     flex-wrap: wrap;
-   
+
 }
 
 .sec10 .left10 {
@@ -166,5 +166,23 @@
         margin: 0;
         font-family: Arial, sans-serif;
 
+    }
+
+    .sec10 .left10 {
+
+        gap: 0.4rem;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .sec10 .left10 #hd {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: rgba(0, 0, 0, 0.689);
+    }
+    .sec10 .left10 div p {
+        margin-top: 1rem;
+        font-size: 13px;
+        margin-bottom: 1rem;
     }
 }

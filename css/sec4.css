@@ -18,10 +18,16 @@
     .sec4 {
 
         padding: 0rem;
+        margin-bottom: 2.7rem;
     }
 
     .sec4 img {
         margin-top: 1.5rem;
+        width: 92%;
+    }
+    #biography{
+        font-size: 2rem;
+        font-weight: 300;
     }
 
 }
